@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Карта жителя Республики Татарстан</title>
+</head>
+<script src="https://widgetcardorder-cardj.msp.akbars.ru/main.js"></script>
+
+<body>
+  <div class="hero">
+    <div class="wrap">
+      <div class="hero-block">
+        <div class="hero-block__text">
+          <div class="hero-block__head">
+            <span class="hero-block__sell">до 10% на остаток</span>
+            <span class="hero-block__title">Карта жителя Республики Татарстан</span>
+          </div>
+          <span class="hero-block__subtitle">Цифровая или пластиковая банковская карта с доступом к социальной
+            инфраструктуре</span>
+          <div class="hero-block__app">
+            <a href="#">
+              <div class="hero-block__link">
+                <img src="img/buttonStore (3).svg" alt="">
+              </div>
+            </a>
+            <a href="#">
+              <div class="hero-block__link">
+                <img src="img/hero-link1.svg" alt="">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="hero-block__image">
+          <img src="img/hero-image.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="wrap">
+        <div class="services">
+          <h1 class="title">Все сервисы, акции и бонусы в одном приложении</h1>
+          <div class="services-block">
+            <div class="services-block__image">
+              <img src="img/services-image.png" alt="">
+            </div>
+            <div class="services-block__text">
+              <div class="services-block__item">
+                <div class="services-block__icon">
+                  <img src="img/services-icon1.svg" alt="">
+                </div>
+                <div class="services-block__about">
+                  <span class="services-block__title">Социальные сервисы</span>
+                  <ul>
+                    <li>Суперсервис «Забота»</li>
+                    <li>Электронный читательский билет</li>
+                    <li>Пополнение Образовательной карты</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="services-block__item">
+                <div class="services-block__icon">
+                  <img src="img/services-icon.svg" alt="">
+                </div>
+                <div class="services-block__about">
+                  <span class="services-block__title">Банковские сервисы</span>
+                  <ul>
+                    <li>Получайте зарплату, стипендию, пенсию и социальные выплаты</li>
+                    <li>Акции и кешбэк от платёжной системы Мир</li>
+                    <li>Оплата ЖКХ и Госуслуг без комиссии</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrap-title">
+        <div class="title green">Бесплатное годовое обслуживание</div>
+      </div>
+      <div class="discount">
+        <div class="wrap">
+          <div class="discount-block">
+            <div class="discount-block__item">
+              <div class="discount-block__text">
+                <span class="discount-block__title">Лучшие скидки и акции</span>
+                <span class="discount-block__subtitle">Специальные скидки и повышенный кешбэк от партнёров, а также
+                  дополнительный кешбэк в рамках программы «Привет, МИР!»</span>
+              </div>
+              <div class="discount-block__image">
+                <img src="img/discount-image.png" alt="">
+              </div>
+            </div>
+            <div class="discount-block__items">
+              <div class="discount-block__sell">
+                <span class="discount-block__about">Скидка 10% на пополнение Обркарты</span>
+                <div class="discount-block__img">
+                  <img src="img/discount-icon1.svg" alt="">
+                </div>
+              </div>
+              <div class="discount-block__sell">
+                <span class="discount-block__about">Скидка 10% на пополнение Обркарты</span>
+                <div class="discount-block__img">
+                  <img src="img/discount-icon2.svg" alt="">
+                </div>
+              </div>
+              <div class="discount-block__sell">
+                <span class="discount-block__about">Скидка 10% на пополнение Обркарты</span>
+                <div class="discount-block__img">
+                  <img src="img/discount-icon3.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="title">Закажите карту</span>
+      <div class="install">
+        <div class="wrap">
+          <div class="install-block">
+            <span class="install-block__title">Достаточно заполнить анкету или перейти в приложение</span>
+            <div class="install-block__links">
+              <a href="#">
+                <div class="hero-block__link">
+                  <img src="img/hero-link.svg" alt="">
+                </div>
+              </a>
+              <a href="#">
+                <div class="hero-block__link">
+                  <img src="img/hero-link1.svg" alt="">
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="card-order-place"></div>
+      <script>
+        try {
+        window['service-card-order'].mount({
+        selector: '#card-order-place',
+        channel: 'CITCARD_Web',
+        });
+        } catch (e) {
+        console.log(" ");
+        }
+        </script>
+      <div class="information">
+        <div class="wrap">
+          <div class="information-block">
+            <span class="information-block__title">Дополнительная информация</span>
+            <div class="information-block__items">
+              <a href="#">
+                <div class="information-block__item">
+                  <div class="information-block__image">
+                    <img src="img/information-image.svg" alt="">
+                  </div>
+                  <span class="information-block__about">Тарифный план «Ак Барс Evolution» (действует с
+                    19/05/2022)</span>
+                </div>
+              </a>
+              <a href="#">
+                <div class="information-block__item">
+                  <div class="information-block__image">
+                    <img src="img/information-image.svg" alt="">
+                  </div>
+                  <span class="information-block__about">Тарифный план «Ак Барс Evolution» (действует с
+                    19/05/2022)</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="questions">
+        <div class="wrap">
+          <div class="questions-block">
+            <span class="information-block__title">Вопрос-ответ</span>
+            <div class="questions-block">
+              <div class="questions-block__item">
+                <div class="questions-block__title">
+                  <div class="questions-block__name">
+                    <span class="questions-block__name">Кто может оформить карту Карта жителя?</span>
+                  </div>
+                  <div class="questions-block__arrow"><img src="img/icon.svg" alt=""></div>
+                </div>
+                <div class="questions-block__info">
+                  <p class="text">Карту Жителя РТ может оформить любой гражданин РФ, в возрасте от 18 лет.</p>
+                </div>
+              </div>
+              <div class="questions-block__item">
+                <div class="questions-block__title">
+                  <div class="questions-block__name">
+                    <span class="questions-block__name">Кто может оформить карту Карта жителя?</span>
+                  </div>
+                  <div class="questions-block__arrow"><img src="img/icon.svg" alt=""></div>
+                </div>
+                <div class="questions-block__info">
+                  <p class="text">Карту Жителя РТ может оформить любой гражданин РФ, в возрасте от 18 лет.</p>
+                </div>
+              </div>
+              <div class="questions-block__item">
+                <div class="questions-block__title">
+                  <div class="questions-block__name">
+                    <span class="questions-block__name">Кто может оформить карту Карта жителя?</span>
+                  </div>
+                  <div class="questions-block__arrow"><img src="img/icon.svg" alt=""></div>
+                </div>
+                <div class="questions-block__info">
+                  <p class="text">Карту Жителя РТ может оформить любой гражданин РФ, в возрасте от 18 лет.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="greenfooter">
+          <div class="wrap">
+            <div class="greenfooter-block">
+              <div class="greenfooter-block__text">
+                <span class="greenfooter-block__name">Скачайте приложение прямо сейчас</span>
+                <div class="hero-block__app">
+                  <a href="#">
+                    <div class="hero-block__link">
+                      <img src="img/hero-link.svg" alt="">
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="hero-block__link">
+                      <img src="img/hero-link1.svg" alt="">
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="greenfooter-block__image">
+                <img src="img/greenfooter-image.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="wrap">
+            <div class="footer-block">
+              <span class="footer-block__title">Карта жителя Республики Татарстан</span>
+              <a href="tel:+78435610505"><span class="footer-block__subtitle">8 (843) 561–05–05</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>

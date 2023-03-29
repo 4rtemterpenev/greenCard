@@ -1,0 +1,56 @@
+*
+  box-sizing: border-box
+  outline: 0 !important
+  margin: 0
+  padding: 0
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  -webkit-text-size-adjust: 100%
+  outline-offset: 0 !important
+  opacity: 1
+.wrap
+  width: 1200px
+  margin: 0 auto
+.title
+  font-family: "Rubrick New Bold", sans-serif
+  font-weight: 700
+  font-size: 32px
+  line-height: 40px
+  color: #2C2C2C
+  display: flex
+  justify-content: center
+  &.green
+    color: #19AB4A
+    padding: 24px 40px 24px 40px
+    box-shadow: 0px 0px 40px rgba(138, 138, 138, 0.16)
+    border-radius: 10px
+    display: inline-block
+.theme-CITCARD_Web .stepper__head--active
+  border-bottom: 5px solid #19AB4A
+.text
+  font-family: 'Roboto', sans-serif
+  font-size: 18px
+  line-height: 28px
+  color: #6A6A6A
+.wrap-title
+  display: flex
+  justify-content: center
+  padding-top: 90px
+.rotate-90
+  transform: rotate(180deg)
+@media (min-width: 992px)
+  html,
+  body
+    scrollbar-color: #d6d6d6 #F4F5F8
+    scrollbar-width: thin
+    &::-webkit-scrollbar
+      width: 5px
+      height: 8px
+      background-color: #F4F5F8
+    &::-webkit-scrollbar-thumb
+      background-color: #d6d6d6
+      border-radius: 3px
+  .hero-block__link:hover
+    transform: translateY(-5px)
+    transition: 0.5s
