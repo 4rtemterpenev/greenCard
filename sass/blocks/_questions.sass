@@ -1,4 +1,5 @@
 .questions
+  padding-bottom: 70px
   &-block
     &__title
       display: flex
@@ -26,3 +27,10 @@
       display: none
       &.opened
         display: block
+
+@media (max-width: 550px)
+  .questions
+    &-block
+      &__name
+        font-size: 18px
+        line-height: 28px
