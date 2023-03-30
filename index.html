@@ -19,7 +19,9 @@
       <div class="hero-block">
         <div class="hero-block__text">
           <div class="hero-block__head">
-            <span class="hero-block__sell">до 10% на остаток</span>
+            <div class="hero-block__wrapp">
+              <span class="hero-block__sell">до 10% на остаток</span>
+            </div>
             <span class="hero-block__title">Карта жителя Республики Татарстан</span>
           </div>
           <span class="hero-block__subtitle">Цифровая или пластиковая банковская карта с доступом к социальной
@@ -158,14 +160,14 @@
       <div id="card-order-place"></div>
       <script>
         try {
-        window['service-card-order'].mount({
-        selector: '#card-order-place',
-        channel: 'CITCARD_Web',
-        });
+          window['service-card-order'].mount({
+            selector: '#card-order-place',
+            channel: 'CITCARD_Web',
+          });
         } catch (e) {
-        console.log(" ");
+          console.log(" ");
         }
-        </script>
+      </script>
       <div class="information">
         <div class="wrap">
           <div class="information-block">
@@ -272,7 +274,7 @@
       </div>
     </div>
   </div>
-</div>
+  </div>
 
 </body>
 <script src="index.js"></script>
