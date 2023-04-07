@@ -12,7 +12,7 @@
   <link href="img/favicon.svg" rel="icon" type="image/svg+xml" />
   <title>Карта жителя Республики Татарстан</title>
 </head>
-<script src="https://widgetcardorder-cardj.msp.akbars.ru/main.js"></script>
+<script src="https://cardj.akbars.ru/main.js"></script>
 
 <body>
   <div class="hero">
@@ -79,8 +79,8 @@
                   <span class="services-block__title">Банковские сервисы</span>
                   <ul>
                     <li>Получайте зарплату, стипендию, пенсию и социальные выплаты</li>
-                    <li>Акции и кешбэк от платёжной системы Мир</li>
-                    <li>Оплата ЖКХ и Госуслуг без комиссии</li>
+                    <li>Получайте кешбэк до 45,5% от партнёров <a href="https://points.akbars.ru/" target="_blank">программы лояльности «Сливки»</a> и пользуйтесь кешбэком и скидками по программе лояльности <a href="https://privetmir.ru/promo/" target="_blank">«Привет, Мир!»</a></li>
+                    <li>Оплачивайте без комиссии ЖКХ, налоги, штрафы, госпошлины, связь и другие услуги</li>
                   </ul>
                 </div>
               </div>
@@ -165,7 +165,7 @@
         try {
           window['service-card-order'].mount({
             selector: '#card-order-place',
-            channel: 'CITCARD_Web',
+            channel: 'CITCARD_Web_lending',
           });
         } catch (e) {
           console.log(" ");
@@ -177,22 +177,12 @@
             <span class="information-block__title">Дополнительная информация</span>
             <div class="information-block__items">
               <!-- ССЫЛКА НА ДОКУМЕНТ ОТ БИЗНЕСА ВМЕСТО # -->
-              <a href="Document1.pdf" download="">
+              <a href="doc.pdf" download="">
                 <div class="information-block__item">
                   <div class="information-block__image">
                     <img src="img/information-image.svg" alt="">
                   </div>
-                  <span class="information-block__about">ОБЩИЕ УСЛОВИЯ ВЫПУСКА И ОБСЛУЖИВАНИЯ БАНКОВСКИХ КАРТ
-                    ПАО «АК БАРС» БАНК</span>
-                </div>
-              </a>
-              <!-- ССЫЛКА НА ДОКУМЕНТ ОТ БИЗНЕСА ВМЕСТО #-->
-              <a href="Document2.pdf" download="">
-                <div class="information-block__item">
-                  <div class="information-block__image">
-                    <img src="img/information-image.svg" alt="">
-                  </div>
-                  <span class="information-block__about">Тарифный план «Карта жителя Республики Татарстан»</span>
+                  <span class="information-block__about">Политика конфиденциальности приложения Карта жителя Татарстана</span>
                 </div>
               </a>
             </div>
